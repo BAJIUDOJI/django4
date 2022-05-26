@@ -1,0 +1,40 @@
+site_name: django4
+
+
+# site_url: https://example.com/bar
+site_dir: 'wiki/GENERIC/generic/build'
+
+nav:
+  - index: index.md
+  - Dev: dev.md
+  - settings: settings.md
+  - Blog: blog/view.md  
+  - Blog: blog/models.md  
+  - Blog: blog/templates.md  
+  - Blog: blog/urls.md  
+  
+
+
+theme:
+  name: material
+    
+dev_addr:
+  127.0.0.1:8200
+
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - toc:
+      permalink: true
+
+collapse_single_pages: true
+
+plugins:
+  - search
+  - awesome-pages
+
+site_author:
+  Serega Petrovsky
